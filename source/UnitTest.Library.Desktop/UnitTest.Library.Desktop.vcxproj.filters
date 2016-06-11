@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="FooTest.cpp" />
+    <ClCompile Include="SListTest.cpp" />
+    <ClCompile Include="VectorTest.cpp" />
+    <ClCompile Include="StackTest.cpp" />
+    <ClCompile Include="HashMapTest.cpp" />
+    <ClCompile Include="DatumTest.cpp" />
+    <ClCompile Include="ScopeTest.cpp" />
+    <ClCompile Include="AttributedTest.cpp" />
+    <ClCompile Include="AttributedFoo.cpp" />
+    <ClCompile Include="XmlParseMasterTest.cpp" />
+    <ClCompile Include="XmlParseHelperFoo.cpp" />
+    <ClCompile Include="XmlParseHelperTableTest.cpp" />
+    <ClCompile Include="FactoryTest.cpp" />
+    <ClCompile Include="EntityTest.cpp" />
+    <ClCompile Include="XmlParseHelperEntityTest.cpp" />
+    <ClCompile Include="XmlParseHelperActionTest.cpp" />
+    <ClCompile Include="ActionTest.cpp" />
+    <ClCompile Include="FooRTTI.cpp">
+      <Filter>FooTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="FooAction.cpp">
+      <Filter>FooTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>FooTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="FooEntity.cpp">
+      <Filter>FooTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="FooEntityTest.cpp">
+      <Filter>FooTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="BarRTTI.cpp">
+      <Filter>FooTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTest.cpp" />
+    <ClCompile Include="FooSubscriber.cpp">
+      <Filter>FooTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactionTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="AttributedFoo.h" />
+    <ClInclude Include="XmlParseHelperFoo.h" />
+    <ClInclude Include="FooRTTI.h">
+      <Filter>FooTestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="FooEntity.h">
+      <Filter>FooTestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="FooAction.h">
+      <Filter>FooTestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Foo.h">
+      <Filter>FooTestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BarRTTI.h">
+      <Filter>FooTestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="FooSubscriber.h">
+      <Filter>FooTestClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FooTestClasses">
+      <UniqueIdentifier>{66fb56f0-df1f-43d5-acaf-092e51bce213}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

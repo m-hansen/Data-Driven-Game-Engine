@@ -1,0 +1,17 @@
+<world name="World1">
+  <sector name="Sector1">
+    <entity class="FooEntity" name="Entity1">
+      <int name="Health" value="10" />
+    </entity>
+  </sector>
+  <sector name="Sector2">
+    <entity class="FooEntity" name="Entity2">
+      <int name="Health" value="20" />
+      <int name="Mana" value="50" />
+      <string name="Description" value="An entity." />
+    </entity>
+	<entity class="FooEntity" name="Entity3">
+      <int name="Health" value="100" />
+    </entity>
+  </sector>
+</world>

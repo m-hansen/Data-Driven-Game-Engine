@@ -1,0 +1,12 @@
+<world name="World1">
+  <sector name="Sector1">
+    <entity name="Entity1">
+	  <action name="ParentAction">
+        <action name="EmptyChildAction" />
+        <action name="ChildAction">
+          <action name="EmptyGrandchildAction" />
+        </action>
+      </action>
+	</entity>
+  </sector>
+</world>

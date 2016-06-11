@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Datum.cpp" />
+    <ClCompile Include="Scope.cpp" />
+    <ClCompile Include="Attributed.cpp" />
+    <ClCompile Include="GameClock.cpp" />
+    <ClCompile Include="GameTime.cpp" />
+    <ClCompile Include="ActionList.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="IXmlParseHelper.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParseHelperEntity.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParseHelperTable.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParseMaster.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Sector.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldState.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParseHelperAction.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionIf.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="EventPublisher.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EventQueue.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionEvent.cpp">
+      <Filter>Reaction</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMessageAttributed.cpp">
+      <Filter>Reaction</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactionAttributed.cpp">
+      <Filter>Reaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Reaction.cpp">
+      <Filter>Reaction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Datum.h" />
+    <ClInclude Include="RTTI.h" />
+    <ClInclude Include="Scope.h" />
+    <ClInclude Include="Attributed.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="GameClock.h" />
+    <ClInclude Include="GameTime.h" />
+    <ClInclude Include="ActionList.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="IXmlParseHelper.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParseHelperEntity.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParseHelperTable.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParseMaster.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="HashMap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="SList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Sector.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldState.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParseHelperAction.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionIf.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventPublisher.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventQueue.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventSubscriber.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionEvent.h">
+      <Filter>Reaction</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMessageAttributed.h">
+      <Filter>Reaction</Filter>
+    </ClInclude>
+    <ClInclude Include="ReactionAttributed.h">
+      <Filter>Reaction</Filter>
+    </ClInclude>
+    <ClInclude Include="Reaction.h">
+      <Filter>Reaction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Factory.inl" />
+    <None Include="HashMap.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="SList.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="Stack.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="Vector.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="Event.inl">
+      <Filter>Event</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Action">
+      <UniqueIdentifier>{636687ba-aefe-4a59-b0d1-e25597ed2b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{9aae1022-4132-415e-ac8a-1a5bc27a1171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{05199489-689f-4b44-974e-c866b2d858d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{67f8a027-9b8c-4a10-ab4d-024b46637615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{ceabd84f-b74c-41b8-be43-22d6ca6abe53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reaction">
+      <UniqueIdentifier>{29d9dfbe-1dec-41d5-87f3-71b72476f32a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

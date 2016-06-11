@@ -1,0 +1,9 @@
+<world name="World1">
+  <sector name="Sector1">
+    <entity class="FooEntity" name="Entity1">
+      <reaction class="ReactionAttributed" name="Reaction1">
+        <string name="subtype" value="integer" />
+      </reaction>
+    </entity>
+  </sector>
+</world>

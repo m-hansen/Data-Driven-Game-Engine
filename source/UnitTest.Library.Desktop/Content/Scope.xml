@@ -1,0 +1,15 @@
+<scope name="GlobalScope">
+	<int name="globalInt" value="5" />
+	<float name="globalFloat" value="10.0" />
+	<vector name="globalVector" value="(0.0,0.0,0.0,0.0)" />
+	<matrix name="globalMatrix" value="[(0.0,0.0,0.0,0.0),(0.0,0.0,0.0,0.0),(0.0,0.0,0.0,0.0),(0.0,0.0,0.0,0.0)]" />
+	<string name="globalString" value="MyGlobalString" />
+	<scope name="ParentScopeA">
+		<scope name="ChildScopeA1" />
+	</scope>
+	<scope name="ScopeB">
+		<scope name="ChildScopeB1">
+			<scope name="GrandchildScope" />
+		</scope>
+	</scope>
+</scope>

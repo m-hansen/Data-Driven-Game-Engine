@@ -1,0 +1,22 @@
+<world name="World1">
+  <sector name="Sector1">
+    <entity class="FooEntity" name="Entity1">
+		<if name="TestCondition1" condition="0">
+		  <then>
+			<action name="WontBeExecutedThenAction" />
+		  </then>
+		  <else>
+			<action name="ExecutedElseAction" />
+		  </else>
+		</if>
+		<if name="TestCondition2" condition="1">
+		  <then>
+			<action name="ExecutedThenAction" />
+		  </then>
+		  <else>
+			<action name="WontBeExecutedElseAction">
+		  </else>
+		</if>
+    </entity>
+  </sector>
+</world>
